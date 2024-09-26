@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { AddCategory, GifGrid } from "./components";
+import { AddCategory, GifGrid, SplineAnimation } from "./components";
+
 
 export const GifExpertApp = () => {
 
@@ -21,6 +22,8 @@ export const GifExpertApp = () => {
   return (
     <>
         <h1>GifExpertApp</h1>
+        
+        <SplineAnimation />
         
         <AddCategory 
             // 1- AddCategory es la barra de texto en donde intruducimos 
