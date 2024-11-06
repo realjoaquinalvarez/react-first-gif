@@ -22,9 +22,7 @@ export const GifExpertApp = () => {
   return (
     <>
         <h1>GifExpertApp</h1>
-        
-        <SplineAnimation />
-        
+                
         <AddCategory 
             // 1- AddCategory es la barra de texto en donde intruducimos 
             // la nueva categoria nueva para actualizar "categorias"
